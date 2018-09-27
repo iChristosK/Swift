@@ -145,10 +145,21 @@ password.replacingOccurrences(of: "o", with: "O")
 var element = "This is a big word"
 var elementReversed = element.reversed()
 
+
+// How to write a sentense backwards
 for element in element.reversed()
 {
     print ("\(element)",terminator:"")
     
+}
+
+
+var clue = "This is an element"
+var backwards = clue.reversed()
+
+for chara in backwards
+{
+    print("\(chara)")
 }
 
 
